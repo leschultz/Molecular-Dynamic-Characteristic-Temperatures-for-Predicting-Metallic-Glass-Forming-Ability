@@ -1,3 +1,12 @@
+# Locations
+
+The features directory contains all the features used for machine learning. Included in the features directory are the raw GFA data "MDF_DMREF_Metallic_Glasses_v5.csv" before feature processing.
+
+The plots directory contains the figures used throughout the paper and their data in either a json lines or pickle form.
+
+The model directory contains the final XGBoost model fit to build the shapley value summary plot.
+
+```
 ├── README.md
 ├── features
 │   ├── MDF_DMREF_Metallic_Glasses_v5
@@ -44,3 +53,5 @@
     └── xgb_select_class
         ├── shap.pickle
         └── shap.png
+
+```
