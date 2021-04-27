@@ -23,6 +23,12 @@ The model directory contains the final XGBoost model fit to build the shapley va
 │   │   └── upload.py
 │   └── prsd_features_gfa_cts
 │       └── prsd_features_gfa_cts.csv
+├── model
+│   ├── features_gfa_cts.csv
+│   ├── run.py
+│   ├── shap.pickle
+│   ├── shap.png
+│   └── xgboost_model.pickle
 └── plots
     ├── classification
     │   ├── original
@@ -53,5 +59,4 @@ The model directory contains the final XGBoost model fit to build the shapley va
     └── xgb_select_class
         ├── shap.pickle
         └── shap.png
-
 ```
