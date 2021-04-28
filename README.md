@@ -2,27 +2,17 @@
 
 The features directory contains all the features used for machine learning. Included in the features directory are the raw GFA data "MDF_DMREF_Metallic_Glasses_v5.csv" before feature processing.
 
-The plots directory contains the figures used throughout the paper and their data in either a json lines or pickle form.
+The plots directory contains the figures used throughout the paper and their data in either a json lines or pickle format.
 
-The model directory contains the final XGBoost model fit to build the shapley value summary plot.
+The model directory contains the final XGBoost model fit to build the shapley value summary plot along with the requirements from pip3 freeze. The python version used was Python 3.9.4.
 
 ```
 ├── README.md
 ├── features
-│   ├── MDF_DMREF_Metallic_Glasses_v5
-│   │   ├── MDF_DMREF_Metallic_Glasses_v5.csv
-│   │   └── update_metallic_glasses.py
-│   ├── features_dmax_cts
-│   │   ├── features_dmax_cts.csv
-│   │   ├── features_dmax_cts.json
-│   │   └── upload.py
-│   ├── features_gfa_cts
-│   │   ├── features_gfa_cts.csv
-│   │   ├── features_gfa_cts.json
-│   │   ├── requirements.txt
-│   │   └── upload.py
-│   └── prsd_features_gfa_cts
-│       └── prsd_features_gfa_cts.csv
+│   ├── MDF_DMREF_Metallic_Glasses_v5.csv
+│   ├── features_dmax_cts.csv
+│   ├── features_gfa_cts.csv
+│   └── prsd_features_gfa_cts.csv
 ├── model
 │   ├── features_gfa_cts.csv
 │   ├── run.py
@@ -46,7 +36,6 @@ The model directory contains the final XGBoost model fit to build the shapley va
     │   ├── tgm.jsonl
     │   └── tgm.png
     ├── tprime
-    │   ├── desktop.ini
     │   ├── tprime.jsonl
     │   └── tprime.png
     ├── tstar
